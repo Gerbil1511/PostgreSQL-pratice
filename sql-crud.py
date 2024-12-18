@@ -135,7 +135,8 @@ session.commit()
 # else:
 #     print("No records found")
 
-# delete multiple records (WARNING: this deletes EVERYTHING in each record!)
+
+# WARNING To delete multiple records (WARNING: this deletes EVERYTHING in each record!)
 # programmers = session.query(Programmer).all()
 # for programmer in programmers:
 #     # defensive programming
